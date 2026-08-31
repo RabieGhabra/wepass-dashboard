@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wepass-dashboard/static/css/main.3b71cc2a.css",
+    "main.js": "/wepass-dashboard/static/js/main.55965cf6.js",
+    "static/js/453.bc95bffd.chunk.js": "/wepass-dashboard/static/js/453.bc95bffd.chunk.js",
+    "static/media/waveform.png": "/wepass-dashboard/static/media/waveform.50c86ab8d640fe8abf2d.png",
+    "index.html": "/wepass-dashboard/index.html",
+    "main.3b71cc2a.css.map": "/wepass-dashboard/static/css/main.3b71cc2a.css.map",
+    "main.55965cf6.js.map": "/wepass-dashboard/static/js/main.55965cf6.js.map",
+    "453.bc95bffd.chunk.js.map": "/wepass-dashboard/static/js/453.bc95bffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b71cc2a.css",
+    "static/js/main.55965cf6.js"
+  ]
+}
