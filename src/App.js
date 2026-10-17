@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavbarTop from "./components/Layout/NavbarTop";
 import Sidebar from "./components/Layout/Sidebar";
 import DashboardPage from "./pages/DashboardPage";
-import SchoolsPage from "./pages/Schools"; 
+import SchoolsPage from "./pages/Schools";
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
@@ -11,7 +11,11 @@ function App() {
     document.body.style.overflow = sidebarOpen ? "hidden" : "auto";
   }, [sidebarOpen]);
   return (
-    <Router>
+    <Router
+      basename={
+        process.env.NODE_ENV === "production" ? "/wepass-dashboard" : ""
+      }
+    >
       <div
         className="d-flex min-vh-100"
         style={{
